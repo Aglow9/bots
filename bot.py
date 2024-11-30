@@ -39,4 +39,4 @@ async def cool(ctx):
         await ctx.send(f'No, {ctx.subcommand_passed} is not cool')
 
 
-bot.run("TOKEN")
+bot.run("TOKEN SECRETO")
