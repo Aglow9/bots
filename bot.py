@@ -38,5 +38,12 @@ async def cool(ctx):
     if ctx.invoked_subcommand is None:
         await ctx.send(f'No, {ctx.subcommand_passed} is not cool')
 
+@bot.command()
+async def ayuda(ctx):
+    await ctx.send("Mis comandos son ($hello), ($repeat + mensaje), ($cool + texto), ($joined + usuario,) ($heh + numero)")
 
-bot.run("TOKEN SECRETO")
+
+
+
+
+bot.run("TOKEN")
